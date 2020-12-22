@@ -9,5 +9,9 @@
     - Collection of free courses for learning about julia, computational thinking, ML, etc.
 - Quick Reference for Julia syntax / behavior - comparing to Python / Matlab
   - https://docs.julialang.org/en/v1/manual/noteworthy-differences/
+-  Python-Matlab-Jula cheatsheet
+   -  https://cheatsheets.quantecon.org/
+-  Learn Julia in Y Minutes
+   -  https://learnxinyminutes.com/docs/julia/
 - PLYMI Equivalent for Julia: Think Julia
   - https://benlauwens.github.io/ThinkJulia.jl/latest/book.html
