@@ -1,0 +1,9 @@
+- Developing a Julia package
+  - https://www.youtube.com/watch?v=QVmU29rCjaA
+    - Hour long description of setting up Julia package, tests, CI/CD, etc
+- JuliaHub
+  - https://juliahub.com/ui/Home
+    - Browse packages, their docs, dependencies, etc
+- Julia Academy Courses
+  - https://juliaacademy.com/courses
+    - Collection of free courses for learning about julia, computational thinking, ML, etc.
