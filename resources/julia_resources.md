@@ -15,3 +15,5 @@
    -  https://learnxinyminutes.com/docs/julia/
 - PLYMI Equivalent for Julia: Think Julia
   - https://benlauwens.github.io/ThinkJulia.jl/latest/book.html
+- Deep Intro to Julia
+  - http://ucidatascienceinitiative.github.io/IntroToJulia/ 
