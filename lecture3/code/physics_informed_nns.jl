@@ -63,5 +63,3 @@ MyNN = MyChain(MyDense(10, 32, x -> max(0, x)),
 
 MyNN(rand(10, 40))
 
-f(x, y, z) = x + y + z
-f((1, 2, 3)...)

@@ -32,7 +32,7 @@ display(loss(data))
 using BenchmarkTools
 # implementation from lecture notes is 17.948 s (141805057 allocations: 7.76 GiB)
 @btime Flux.train!(loss, Flux.params(NNODE), Iterators.repeated(data, 5000), opt)  # 1.397 s (4780058 allocations: 1.13 GiB)
-
+@btime loss(data)
 using Plots
 
 # Plot the learned solution
