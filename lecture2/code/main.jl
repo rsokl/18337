@@ -120,5 +120,3 @@ alloc, no_alloc = (collect(i) for i in unzip(alloc_matmul_timer.(sizes)))
 
 plot(sizes, alloc, label="=", yscale=:log10, xscale=:log10, legend=:bottomright, title="Micro-Optimizations Don't Matter for Large MatMul")
 plot!(sizes, no_alloc, label=".=")
-
-using DifferentialEquations
