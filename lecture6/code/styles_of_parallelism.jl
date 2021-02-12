@@ -38,11 +38,17 @@ sum(i for i in 1:100)
 
 using Base.Threads
 
+# loop-level parallelism
+# - assumes iterations are independent
 acc = 0
 @threads for i in 1:10_000
     global acc
     acc += 1
 end
+
+# By contrast, `@spawn` could be used to perform task-based parallelism,
+# which is more expressive & adaptive but usually requires modification 
+# of information flow.
 
 # tally wont match expected value because read/writes will be
 # out of sync
